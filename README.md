@@ -1,3 +1,17 @@
 
 # Object_Detection_app_Heroku
-All the files are exactly same with the repo of Object_Detection_app_streamlit. Only difference is with the Dockerfile. 
+Project Goal 
+Detect common objects in a working table environment; wallet and headphone for this project
+Notify the user regarding the missing object
+Project Scope 
+Detecting objects in an image and video and a webcam
+On screen display of the objects found and missing from the table
+Resources
+Google colab and Jupyter notebook
+Laptop with a webcam
+Github
+4 project members: Pawan, Shree, Suraj, Swostik
+Slack, google drive with Integrify account
+Programming languages : Python
+Implementation :  Streamlit, Docker, heroku, CI/CD
+ 
