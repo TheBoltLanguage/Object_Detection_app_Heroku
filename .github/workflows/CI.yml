@@ -4,7 +4,7 @@ on:
 # but only for the main branch
   push:
     branches:
-      - main
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -14,7 +14,7 @@ jobs:
     - name: Login to Heroku Container registry
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-      run: heroku container:login -a ${{ secrets.objectdetection-streamlit }} web 
+      run: heroku container:login  
     - name: Build and push
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
