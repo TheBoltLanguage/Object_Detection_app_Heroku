@@ -88,7 +88,7 @@ if choice == "Upload an image":
 #######################################################################################################################################
 ##################################################### Uploading Video ##################################################################
 if choice == "Upload a video":
-    frame = st.sidebar.file_uploader("Upload",type=["mp4"])
+    frame = st.sidebar.file_uploader("Upload",type=["mp4","mov","wmv"])
     if frame:
         tfile = tempfile.NamedTemporaryFile(delete=False)
         tfile.write(frame.read())
