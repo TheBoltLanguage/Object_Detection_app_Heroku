@@ -43,7 +43,7 @@ def fun():
     return class_ids
 #########################################################################################################################################
 st.title("Object Detection")
-st.markdown("In this app, you can upload an image, video or open your webcam (The webcam works only when you run the app in the local machine. Get the app from github repo https://github.com/haaruhito/Object_Detection_app_Streamlit). And this app will detect two objects that is wallet or headphone. The accuracy is relatively ok however more training data is required.For better accuracy, you can use the images similar to sample images given below.")
+st.markdown("In this app, you can upload an image, video or open your webcam (The webcam works only when you run the app in the local machine. Get the app from github repo https://github.com/haaruhito/Object_Detection_app_Heroku). And this app will detect two objects that is wallet or headphone. The accuracy is relatively ok however more training data is required.For better accuracy, you can use the images similar to sample images given below.")
 st.markdown("Below are the sample images which can be detected.The accuracy of the detected images is printed in the image, video or your webcam.")
 st.image(["wallet.png","headphone1.png"], caption=["Sample picture of a Wallet","Sample picture of a Headphone"], width=300, use_column_width=None, clamp=False, channels="RGB", output_format="auto")
 st.subheader("Output is seen here below.")
